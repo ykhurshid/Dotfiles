@@ -1,0 +1,12 @@
+#+Title:  My constantly evolving workflow
+
+* Programs Used
+| Use Case                      | Program     |
+|-------------------------------+-------------|
+| Window Manager                | BSPWM       |
+| Hotkey Daemon                 | SXHKD       |
+| Media Player and Viewer       | MPV         |
+| Document Viewing and Creation | Emacs       |
+| Text Editing                  | Emacs       |
+| Web Browsing                  | Qutebrowser |
+| Terminal Emulator             | Kitty       |
