@@ -1,12 +1,36 @@
-#+Title:  My constantly evolving workflow
+#+Title:  My constantly evolving workflow [WIP]
 
 * Programs Used
 | Use Case                      | Program     |
 |-------------------------------+-------------|
-| Window Manager                | BSPWM       |
-| Hotkey Daemon                 | SXHKD       |
-| Media Player and Viewer       | MPV         |
+| Window Manager                | bspwm       |
+| Status Bar                    | polybar     |
+| Hotkey Daemon                 | sxhkd       |
+| Media                         | mpv         |
 | Document Viewing and Creation | Emacs       |
 | Text Editing                  | Emacs       |
-| Web Browsing                  | Qutebrowser |
-| Terminal Emulator             | Kitty       |
+| Web Browsing                  | qutebrowser |
+| Terminal Emulator             | kitty       |
+| File Manager                  | ranger      |
+
+* Philosophy
+I respect but don't adhere rigidly to the UNIX philosophy, at least
+not in it's most literal interpretation of one program for every
+discrete class of task. mpv is mainly for playing video but it's
+can also be used as an excellent image viewer and music player too,
+especially with a bit of scripting. For me, the key criteria for
+software that can be used for more than one task is if they can be
+programmed or if each type of task can be compartmentalized into it's
+own seperate module or config. mpv definitely allows for that with
+it's lua scripting. 
+
+Emacs is another clear violation of the strict UNIX philosophy but
+considering that it's just a collection of plugins around a elisp REPL
+and C core, you could consider every package being something designed
+to do one thing and do it well, plus it's undeniable how powerful and
+functional it is. You can use it to prepare documents of almost any
+format with Org Mode in conjunction with Pandoc or the many different
+exporting packages available. It is an excellent PDF Viewer with the
+help of PDF Tools.
+
+[To Be Expanded On]
